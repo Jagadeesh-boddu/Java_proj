@@ -1,10 +1,10 @@
 name: CI/CD Deploy Java App to Tomcat10 on EC2
 
-# Trigger deployment on push to master branch
+# Trigger deployment on push to main branch
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build-and-deploy:
